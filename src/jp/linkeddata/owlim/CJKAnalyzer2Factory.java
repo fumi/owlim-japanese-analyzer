@@ -6,6 +6,6 @@ import org.apache.lucene.analysis.Analyzer;
 
 public class CJKAnalyzer2Factory implements AnalyzerFactory {
     public Analyzer createAnalyzer(){
-        return new CJKAnalyzer2();
+        return new CJKAnalyzer2(1);
     }
 }
