@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<project name="OWLIM CMecab Analyzer" default="dist" basedir=".">
-	<property name="version" value="0.0.2" />
+<project name="OWLIM Japanese Analyzer" default="dist" basedir=".">
+	<property name="version" value="0.1.0" />
   <property name="src" location="src" />
   <property name="build" location="build" />
   <property name="dist" location="dist" />
@@ -22,7 +22,7 @@
 
   <target name="dist" depends="compile">
     <mkdir dir="${dist}/" />
-		<jar jarfile="${dist}/owlim-cmecab-analyzer-${version}.jar" basedir="${build}" includes="**/*.class" />
+		<jar jarfile="${dist}/owlim-japanese-analyzer-${version}.jar" basedir="${build}" includes="**/*.class" />
   </target>
 
   <target name="clean" description="clean up">
