@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="OWLIM Japanese Analyzer" default="dist" basedir=".">
-	<property name="version" value="0.1.1" />
+	<property name="version" value="0.1.2" />
   <property name="src" location="src" />
   <property name="build" location="build" />
   <property name="dist" location="dist" />
